@@ -300,7 +300,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 )
                 await query.answer('Check PM, I have sent files in pm', show_alert=True)
         except UserIsBlocked:
-            await query.answer('Unblock the bot mahn !', show_alert=True)
+            await query.answer('Unblock the bot man !', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
@@ -525,9 +525,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search"),
             InlineKeyboardButton("📢 REQUEST 📢", callback_data='request')
             ],[
-            InlineKeyboardButton("MORE FROM US", callback_data="morefromus")
-            ],[
-            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/tamil4ksupport"),
+            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/+kqjDh3G4PUo0MDQ9"),
             InlineKeyboardButton("💫 ABOUT 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -590,10 +588,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "request":
         buttons= [[
-            InlineKeyboardButton('😇 TNLINK 😇', url='https://t.me/+BTloleyZM1IxMzhl'),
-            InlineKeyboardButton('😇 VIVDISK 😇', url='https://t.me/+gJJtjXHUYA1lOTg9')
-            ],[
-            InlineKeyboardButton('😇 FOR SERIES 😇', url='https://t.me/+RQUTiAKF7JZlN2Y1')
+            InlineKeyboardButton('😇 Movies Request 😇', url='https://t.me/KV_ZONES')
             ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
