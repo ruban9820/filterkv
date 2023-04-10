@@ -25,7 +25,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton("🔍 SEARCH 🔍", callback_data="search"),
-            InlineKeyboardButton('📢 CHANNEL 📢', url=f'https://t.me/tamil4katmos')
+            InlineKeyboardButton('📢 CHANNEL 📢', url=f'https://t.me/+kqjDh3G4PUo0MDQ9')
             ],[
             InlineKeyboardButton('😇 Movie / Series Request 😇', callback_data='request')
             ]]
@@ -46,9 +46,7 @@ async def start(client, message):
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search"),
             InlineKeyboardButton("📢 REQUEST 📢", callback_data='request')
             ],[
-            InlineKeyboardButton("MORE FROM US", callback_data="morefromus")
-            ],[
-            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/tamil4ksupport"),
+            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/+kqjDh3G4PUo0MDQ9"),
             InlineKeyboardButton("💫 ABOUT 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -98,9 +96,7 @@ async def start(client, message):
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search"),
             InlineKeyboardButton("📢 REQUEST 📢", callback_data='request')
             ],[
-            InlineKeyboardButton("MORE FROM US", callback_data="morefromus")
-            ],[
-            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/tamil4ksupport"),
+            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/+kqjDh3G4PUo0MDQ9"),
             InlineKeyboardButton("💫 ABOUT 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
